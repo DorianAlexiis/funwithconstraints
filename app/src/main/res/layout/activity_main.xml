@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:fillViewport="true">
+
+  <android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    tools:context="com.example.nicolasg.funwithconstraints.MainActivity">
+
+    <Button
+      android:id="@+id/firstLayoutButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:text="FIRST LAYOUT"
+      android:textColor="#f7f7f7"
+      android:background="@color/colorPrimary"
+      app:layout_constraintBottom_toTopOf="@id/secondLayoutButton"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+      android:id="@+id/secondLayoutButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:text="SECOND LAYOUT"
+      android:textColor="#f7f7f7"
+      android:background="@color/colorPrimary"
+      app:layout_constraintTop_toBottomOf="@+id/firstLayoutButton"/>
+
+    <Button
+      android:id="@+id/thirdLayoutButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:text="THIRD LAYOUT"
+      android:textColor="#f7f7f7"
+      android:background="@color/colorPrimary"
+      app:layout_constraintTop_toBottomOf="@+id/secondLayoutButton"/>
+
+    <Button
+      android:id="@+id/fourLayoutButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:text="FOURTH LAYOUT"
+      android:textColor="#f7f7f7"
+      android:background="@color/colorPrimary"
+      app:layout_constraintTop_toBottomOf="@+id/thirdLayoutButton"/>
+
+    <Button
+      android:id="@+id/fiveLayoutButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:text="FIFTH LAYOUT"
+      android:textColor="#f7f7f7"
+      android:background="@color/colorPrimary"
+      app:layout_constraintTop_toBottomOf="@+id/fourLayoutButton"/>
+
+    <Button
+      android:id="@+id/sixLayoutButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:text="SIX LAYOUT"
+      android:textColor="#f7f7f7"
+      android:background="@color/colorPrimary"
+      app:layout_constraintTop_toBottomOf="@+id/fiveLayoutButton"/>
+
+    <Button
+      android:id="@+id/sevenLayoutButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:text="SEVEN LAYOUT"
+      android:textColor="#f7f7f7"
+      android:background="@color/colorPrimary"
+      app:layout_constraintTop_toBottomOf="@+id/sixLayoutButton"/>
+
+    <Button
+      android:id="@+id/eightLayoutButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:text="EIGHT LAYOUT"
+      android:textColor="#f7f7f7"
+      android:background="@color/colorPrimary"
+      app:layout_constraintTop_toBottomOf="@+id/sevenLayoutButton"/>
+  </android.support.constraint.ConstraintLayout>
+</ScrollView>
