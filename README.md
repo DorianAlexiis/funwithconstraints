@@ -1,5 +1,5 @@
 # Fun with Constraints Layout
-Creating multiple mocks using Contranisnts Layout
+Creating multiple mocks using Constraints Layout
 
 # Application Demo:
 
