@@ -20,6 +20,6 @@ class ThirdLayoutFragment: Fragment() {
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
       savedInstanceState: Bundle?): View? {
-    return inflater.inflate(R.layout.first_layout, container, false)
+    return inflater.inflate(R.layout.third_layout, container, false)
   }
 }

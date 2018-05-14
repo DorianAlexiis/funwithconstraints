@@ -4,7 +4,14 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
+import com.example.nicolasg.funwithconstraints.fragments.EigthLayoutFragment
+import com.example.nicolasg.funwithconstraints.fragments.FifthLayoutFragment
 import com.example.nicolasg.funwithconstraints.fragments.FirstLayoutFragment
+import com.example.nicolasg.funwithconstraints.fragments.FourthLayoutFragment
+import com.example.nicolasg.funwithconstraints.fragments.SecondLayoutFragment
+import com.example.nicolasg.funwithconstraints.fragments.SeventhLayoutFragment
+import com.example.nicolasg.funwithconstraints.fragments.SixthLayoutFragment
+import com.example.nicolasg.funwithconstraints.fragments.ThirdLayoutFragment
 
 /**
  * Created by nicolas.g on 5/10/2018.
@@ -22,6 +29,13 @@ class LayoutExample: AppCompatActivity() {
 
     when(layout) {
       1 -> navigateTo(FirstLayoutFragment.newInstance(), true)
+      2 -> navigateTo(SecondLayoutFragment.newInstance(), true)
+      3 -> navigateTo(ThirdLayoutFragment.newInstance(), true)
+      4 -> navigateTo(FourthLayoutFragment.newInstance(), true)
+      5 -> navigateTo(FifthLayoutFragment.newInstance(), true)
+      6 -> navigateTo(SixthLayoutFragment.newInstance(), true)
+      7 -> navigateTo(SeventhLayoutFragment.newInstance(), true)
+      8 -> navigateTo(EigthLayoutFragment.newInstance(), true)
     }
   }
 

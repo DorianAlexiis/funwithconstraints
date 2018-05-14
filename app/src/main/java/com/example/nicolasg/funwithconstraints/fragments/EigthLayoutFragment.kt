@@ -10,16 +10,16 @@ import com.example.nicolasg.funwithconstraints.R
 /**
  * Created by nicolas.g on 5/10/2018.
  */
-class EightLayoutFragment: Fragment() {
+class EigthLayoutFragment: Fragment() {
 
   companion object {
     fun newInstance(): Fragment {
-      return EightLayoutFragment()
+      return EigthLayoutFragment()
     }
   }
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
       savedInstanceState: Bundle?): View? {
-    return inflater.inflate(R.layout.first_layout, container, false)
+    return inflater.inflate(R.layout.eighth_layout, container, false)
   }
 }
